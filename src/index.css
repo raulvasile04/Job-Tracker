@@ -6,12 +6,12 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #C4A882;
+    background-color: #E9E9E9;
     min-height: 100vh;
 }
 
 .header {
-    background-color: #3D2B1F;
+    background-color: #001BB7;
     color: white;
     padding: 20px;
     text-align: center;
@@ -39,7 +39,7 @@ body {
 }
 
 .job-form {
-    background-color: #3D2B1F;
+    background-color: #001BB7;
     padding: 20px;
     display: flex;
     gap: 10px;
@@ -55,13 +55,13 @@ body {
     border: none;
     border-radius: 5px;
     font-size: 0.9rem;
-    background-color: #FEF08A;
-    color: #3D2B1F;
+    background-color: #ffffff;
+    color: #032093;
 }
 
 .job-form button {
     padding: 8px 20px;
-    background-color: #16A34A;
+    background-color: #FF8040;
     color: white;
     border: none;
     border-radius: 5px;
@@ -71,7 +71,7 @@ body {
 }
 
 .job-form button:hover {
-    background-color: #15803D;
+    background-color: #d55b1c;
 }
 
 .job-card {
@@ -124,14 +124,14 @@ body {
     justify-content: center;
     gap: 20px;
     padding: 15px;
-    background-color: #3D2B1F;
+    background-color: #FF8040;
     border-top: 1px solid rgba(255,255,255,0.1);
 }
 
 .stat {
     text-align: center;
-    color: white;
-    background-color: rgba(255,255,255,0.1);
+    color: #2e2929;
+    background-color: rgb(255 255 255);
     padding: 10px 20px;
     border-radius: 8px;
     min-width: 80px;
