@@ -22,12 +22,18 @@ function App(){
         setJobs(jobs.filter(job => job.id !== id));
     }
 
+    function updateJob(id, newStatus) {
+        setJobs(jobs.map(job =>
+            job.id === id ? { ...job, status: newStatus } : job
+        ));
+    }
+
   return (
       <div>
         <Header />
           <JobForm onAddJob={addJob}/>
           <StatsPanel jobs={jobs}/>
-          <JobList jobs={jobs} deleteJob={deleteJob}/>
+          <JobList jobs={jobs} deleteJob={deleteJob} updateJob={updateJob}/>
       </div>
   )
 }

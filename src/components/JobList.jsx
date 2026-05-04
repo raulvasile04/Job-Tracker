@@ -5,7 +5,7 @@ function JobList({jobs , deleteJob}) {
         <div>
             <div className="board">
             {jobs.map(job => (
-                <JobCard key={job.id} job={job} deleteJob={deleteJob}/>
+                <JobCard key={job.id} job={job} deleteJob={deleteJob} updateJob={updateJob}/>
             ))}
             </div>
         </div>
