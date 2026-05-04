@@ -1,6 +1,6 @@
 import JobCard from './JobCard';
 
-function JobList({jobs , deleteJob}) {
+function JobList({jobs , deleteJob , updateJob}) {
     return(
         <div>
             <div className="board">
